@@ -12,5 +12,5 @@ if ($query -eq 'yes') {
     Get-ChildItem "$env:USERPROFILE\AppData\Roaming\Microsoft\Teams\tmp" -Recurse -Force | Remove-Item -Force -Recurse
 }
 else {
-    Write-Output "Clear teams cache aborted"
+    Write-Output "Clear teams cache aborted."
 }
